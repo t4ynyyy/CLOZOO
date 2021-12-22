@@ -1,0 +1,331 @@
+body {
+    margin: 0;
+}
+a {
+
+}
+.site-header {
+    display: flex;
+    height: 70px;
+    background-image: url("../images/fonhead.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+}
+.site-logo {
+     flex: 1;
+ }
+.site-title {
+    flex: 20;
+}
+.site-logo img {
+    max-width: 80px;
+}
+
+.site-title h1 {
+    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 2px;
+}
+.page-nav {
+    text-decoration: none;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.page-nav div {
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    margin: 30px;
+}
+div a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+    color: black;
+}
+.main-nadpisi a:hover {
+    text-decoration: underline;
+    text-decoration-color: #c7c7c7;
+    color: black;
+}
+.more a:hover {
+    text-decoration: underline;
+    text-decoration-color: #c7c7c7;
+    color: black;
+}
+.all-of-all-nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: #c7c7c7;
+    color: black;
+}
+.acc-nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: #c7c7c7;
+    color: black;
+}
+.clo-nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: #c7c7c7;
+    color: black;
+}
+.page-nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: #c7c7c7;
+    color: black;
+}
+.oplata a:hover {
+    text-decoration: underline;
+    text-decoration-color: #c7c7c7;
+    color: black;
+}
+.korzina {
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    left: 90%;
+    top: 1%;
+
+}
+#akt1 {
+    width: 720px;
+    height: 405px;
+}
+#akt2 {
+    width: 720px;
+    height: 405px;
+}
+#akt3 {
+    width: 720px;
+    height: 405px;
+}
+#carouselExampleInterval {
+    margin: 30px;
+    width: 720px;
+    height: 405px;
+}
+
+.main-nadpisi {
+    position: center;
+}
+#lidery-nad {
+    position: center;
+    font-size: 70px;
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    left: 400px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.block {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.actsii-main {
+    margin: 10px;
+    width: 350px;
+    height: 560px;
+}
+
+#act-nad {
+    position: center;
+    font-size: 70px;
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    left: 400px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.left-block {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.block-main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.acc-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: left;
+    text-align: left;
+    margin-left: 2%;
+}
+.clo-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: right;
+    text-align: right;
+    margin-right: 2%;
+}
+
+
+.mainnav-main {
+    position: center;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+    color: BLACK;
+
+}
+.mainnav-mainn {
+    position: center;
+    font-size: 27px;
+    font-family: 'Comfortaa', cursive;
+    color: #FFCC00;
+    margin-top: 10%;
+}
+
+#zima {
+    color: #0066ff;
+}
+
+.animated {
+    animation-duration: 300ms;
+    animation-name: buy-anim;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.tovar.animate  {
+    animation: buy-anim 300ms ease-in-out;
+}
+@keyframes buy-anim {
+    100%{
+        transform: translate(0px,0px) scale(0.95);
+    }
+}
+.more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.podmore {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 25px;
+}
+
+#po_kat {
+    font-family: 'Comfortaa', cursive;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#VSE {
+    font-family: 'Comfortaa', cursive;
+    font-size: 60px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.kat {
+    font-family: 'Comfortaa', cursive;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+#po_kat2 {
+    font-family: 'Comfortaa', cursive;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+.actsii-nemain {
+    margin: 15px;
+    width: 264.13px;
+    height: 422.61px;
+}
+
+#skidka {
+    position: center;
+    font-size: 70px;
+    font-family: 'Comfortaa', cursive;
+    color: #ff0000;
+    left: 400px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.all-of-all-nav {
+    display: flex;
+    margin: 20px;
+}
+
+#fi-nav {
+    margin-right: 15px;
+}
+
+#sec-nav {
+    margin-left: 15px;
+}
+
+.back {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+#back {
+    color: gray;
+    font-size: 25px;
+}
+
+.korz-none {
+    color: gray;
+    margin: 100px;
+}
+
+.mainkorz img {
+    margin: 15px;
+    width: 150px;
+    height: 240px;
+}
+.mainkorz {
+    max-width: 900px;
+}
+
+.oplata {
+    display: flex;
+    margin: 50px;
+}
+
+#cleaner {
+    margin-right: 100px;
+}
+
+#oform {
+    color: #4ff545;
+}
+
+.doc {
+    max-width: 1200px;
+    left: 100px;
+    text-align: center;
+}
